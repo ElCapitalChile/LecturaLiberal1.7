@@ -1,10 +1,6 @@
 package com.elcapitalchile.lecturaliberal;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
-import android.app.DownloadManager;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -13,9 +9,9 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class webviewLudwigVonMises extends AppCompatActivity {
-    private WebView webView;
-    DownloadManager downloadManager;
 
     @SuppressLint("SetJavaScriptEnabled")
     @Override
@@ -23,7 +19,7 @@ public class webviewLudwigVonMises extends AppCompatActivity {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_webview_ludwig_von_mises );
 
-        webView = findViewById(R.id.webview);
+        WebView webView = findViewById(R.id.webview);
         webView.setWebViewClient(new WebViewClient());
         webView.loadUrl("https://drive.google.com/open?id=1kpyBdSd7E89fjM91tSBWs_n-fT8XUH9z");
         WebSettings webSettings = webView.getSettings();

@@ -13,7 +13,6 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
 public class webviewBenedettoCroce extends AppCompatActivity {
-    private WebView webView;
 
 
     @SuppressLint("SetJavaScriptEnabled")
@@ -21,7 +20,7 @@ public class webviewBenedettoCroce extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_webview_benedetto_croce );
-        webView = findViewById(R.id.webview);
+        WebView webView = findViewById(R.id.webview);
         webView.setWebViewClient(new WebViewClient());
         webView.loadUrl("https://drive.google.com/open?id=1weqb9Mti0uGDoTXVQCXqGA9rYcZ-Zj9e");
         WebSettings webSettings = webView.getSettings();

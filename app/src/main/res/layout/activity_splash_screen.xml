@@ -36,11 +36,11 @@
         android:id="@+id/imageView8"
         android:layout_width="134dp"
         android:layout_height="220dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="48dp"
         android:contentDescription="@string/txt_imagedescription"
         android:src="@drawable/torch"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintHorizontal_bias="0.465"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 
@@ -56,6 +56,8 @@
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:layout_constraintVertical_bias="0.983" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

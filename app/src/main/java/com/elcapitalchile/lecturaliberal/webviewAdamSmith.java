@@ -1,22 +1,19 @@
 package com.elcapitalchile.lecturaliberal;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
-import com.google.android.gms.ads.InterstitialAd;
 import android.view.MenuItem;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 
 
 public class webviewAdamSmith extends AppCompatActivity {
-    private WebView webView;
-    private InterstitialAd mInterstitialAd;
 
 
     @SuppressLint("SetJavaScriptEnabled")
@@ -26,7 +23,7 @@ public class webviewAdamSmith extends AppCompatActivity {
         setContentView( R.layout.activity_webview_john_locke );
 
 
-        webView = findViewById(R.id.webview);
+        WebView webView = findViewById(R.id.webview);
         webView.setWebViewClient(new WebViewClient());
         webView.loadUrl("https://drive.google.com/open?id=14QZpI4VX47Iw-93kHjmlRh6pgIbteDxE");
         WebSettings webSettings = webView.getSettings();

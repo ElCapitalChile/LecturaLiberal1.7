@@ -84,7 +84,7 @@
         app:layout_constraintStart_toStartOf="@+id/guideline7"
         app:layout_constraintTop_toTopOf="@+id/guideline2"
         app:layout_constraintVertical_bias="0.379"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText,RtlHardcoded" />
 
     <ImageView
         android:id="@+id/FotoPersonaje"
@@ -142,7 +142,7 @@
         app:layout_constraintStart_toStartOf="@+id/guideline7"
         app:layout_constraintTop_toTopOf="@+id/guideline"
         app:layout_constraintVertical_bias="0.0"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText,RtlHardcoded" />
 
     <ImageView
         android:id="@+id/FotoBandera"
@@ -157,6 +157,7 @@
         app:layout_constraintStart_toEndOf="@+id/txt_pais"
         app:layout_constraintTop_toTopOf="@+id/guideline2"
         app:layout_constraintVertical_bias="0.65"
-        app:srcCompat="@drawable/banderareinounido" />
+        app:srcCompat="@drawable/banderareinounido"
+        tools:ignore="ContentDescription,RtlHardcoded" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

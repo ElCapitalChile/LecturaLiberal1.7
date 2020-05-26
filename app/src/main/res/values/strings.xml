@@ -27,8 +27,13 @@
     <string name="txt_descripcion_herbertspence">Herbert Spencer vivió en el siglo XIX. Aunque de formación técnica, trabajó todo tipo de disciplinas, tanto en las ciencias naturales como en las sociales. Partidario del Darwinismo Social y firme defensor del individuo y del liberalismo más radical.  Durante su vida alcanzó una tremenda autoridad, sobre todo en el ámbito académico de habla inglesa.</string>
     <string name="txt_descripcion_carlmenger">Carl Menger fue un economista austríaco, considerado junto a W. S. Jevons y Léon Walras como uno de los fundadores del marginalismo y de la teoría de la utilidad. También fue fundador de la Escuela Austríaca, donde sus principales seguidores \n Wieser y Böhm -Bawerk fueron sus discípulos. \n Su obra más notable es <i>Principios de Economía</i>.</string>
     <string name="txt_descripcion_johndewy">John Dewey fue el filósofo estadounidense más importante de la primera mitad del siglo XX y, junto con Charles Sanders Peirce y William James, uno de los fundadores de la filosofía del pragmatismo.\n Durante la primera mitad del siglo XX fue \n la figura más representativa de la pedagogía \n progresista en Estados Unidos.</string>
+    <string name="txt_descripcion_johndewy2">John Dewey fue el filósofo estadounidense más importante de la primera mitad del siglo XX y, junto con Charles Sanders Peirce y William James, uno de los fundadores de la filosofía del pragmatismo. Durante la primera mitad del siglo XX fue \n la figura más representativa de la pedagogía \n progresista en Estados Unidos.</string>
+    <string name="txt_descripcion_leonardtrelawny2">Leonard Trelawny Hobhouse sociólogo y filósofo inglés que intentó reconciliar el liberalismo con el colectivismo en aras del progreso social. Al elaborar su concepción de la sociología , se basó en su conocimiento de varios otros campos: filosofía, psicología, biología, antropología e historia de la religión, \n la ética y el derecho.</string>
+
     <string name="txt_descripcion_leonardtrelawny">Leonard Trelawny Hobhouse sociólogo y filósofo inglés que intentó reconciliar el liberalismo con el colectivismo en aras del progreso social. Al elaborar su concepción de la sociología , se basó en su conocimiento de varios otros campos: filosofía, psicología, biología, antropología e historia de la religión, la ética y el derecho.</string>
     <string name="txt_descripcion_benedettocroce">Benedetto Croce fue un escritor, filósofo, historiador y político italiano. Figura destacada del liberalismo. Fue miembro del senado italiano desde 1910, Ministro de Educación desde 1920 a 1921, y otra vez después de la II Guerra Mundial. Oponente al fascismo, se pronunció en contra del Gobierno de Benito Mussolini. </string>
+    <string name="txt_descripcion_benedettocroce2">Benedetto Croce fue un escritor, filósofo, historiador y político italiano. Figura destacada del liberalismo. Fue miembro del senado italiano desde 1910, Ministro de Educación desde 1920 a 1921, y otra vez después de la II Guerra Mundial. Oponente al fascismo, se pronunció  en contra del \n Gobierno de Benito Mussolini. </string>
+
     <string name="txt_descripcion_ludwigvonmises">Ludwig Heinrich Edler von Mises fue un economista austríaco. Mises ha contribuido en gran medida a la economía neoclásica y fue uno de los líderes de la Escuela Austríaca.Fue un firme defensor del liberalismo económico, basado en la idea de que la teoría de la oferta y la demanda dará lugar a la asignación más eficiente de los recursos.</string>
     <string name="txt_descripcion_salvadordemadariaga">Salvador de Madariaga fue esscritor español. Su ideología liberal se manifestó en una prolífica obra que abarca tanto el ensayo como la novela, la poesía y el teatro. A pesar de su temprana vocación literaria, Salvador de Madariaga estudió ingeniería en París para cumplir la voluntad de su padre, militante de ideas liberales.</string>
     <string name="txt_descripcion_friedrichhayek">Friedrich August von Hayek fue un economista, jurista y filósofo vienés de la Escuela Austríaca. Especialmente conocido por recibir el Premio Nobel en 1974, Hayek fue un firme defensor del liberalismo y crítico de la economía planificada y el socialismo. \n La principal aportación de von Hayek \n fue su teoría del ciclo económico.</string>
@@ -66,5 +71,12 @@
     <string name="definicionLiberalismo">El Liberalismo es una doctrina política, económica y social que defiende la libertad del individuo y una intervención mínima del Estado en la vida social y económica. </string>
     <string name="propone">El Liberalismo propone:</string>
     <string name="librecomercio">-Libre comercio \n -Inflación controlada \n-Protección de derechos de propiedad \n-Tamaño del Estado razonable \n-Impuestos razonables \n-Regulaciones coherentes para fomentar el emprendimiento y por consiguiente crear empleos</string>
+    <string name="BotonAdamSmith">Boton Libros Adam Smith</string>
+    <string name="ImgAdamSmith">ImagenAdamSmith</string>
+    <string name="imgThomasPaine">ImgThomasPaine</string>
+    <string name="imgBotonThomasPaine">imgThomasPaine</string>
+    <string name="imgThomasPaine2">imgThomasPaine</string>
+    <string name="imgBotonThomaPaine2">imgBotonThomasPaine2</string>
+    <string name="bandera">bandera</string>
 
 </resources>

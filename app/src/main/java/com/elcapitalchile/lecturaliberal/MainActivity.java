@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<Integer> list_image = new ArrayList<>();
     ArrayList<Integer> list_image2 = new ArrayList<>();
     private long mLastClickTime = 0;
-    protected int defaultInterval;
 
 
     ListView lista;

@@ -8,6 +8,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
+
 import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
@@ -15,11 +17,11 @@ import java.util.ArrayList;
 public class Adapter extends ArrayAdapter<String> {
 
     public final Activity context;
-    public ArrayList<String> list_name= new ArrayList<>();
-    public ArrayList<String> list_pais= new ArrayList<>();
-    public ArrayList<String> list_nacimiento= new ArrayList<>();
-    public ArrayList<Integer> list_image= new ArrayList<>();
-    public ArrayList<Integer> list_image2= new ArrayList<>();
+    private ArrayList<String> list_name;
+    private ArrayList<String> list_pais;
+    private ArrayList<String> list_nacimiento;
+    private ArrayList<Integer> list_image;
+    private ArrayList<Integer> list_image2;
 
 
 
@@ -31,13 +33,12 @@ public class Adapter extends ArrayAdapter<String> {
         ImageView bandera;
 
 
-        int position;
     }
 
 
 
 
-    public Adapter(Activity context, ArrayList<String> list_name, ArrayList<String> list_pais,ArrayList<String> list_nacimiento, ArrayList<Integer> list_image,ArrayList<Integer> list_image2) {
+    Adapter(Activity context, ArrayList<String> list_name, ArrayList<String> list_pais, ArrayList<String> list_nacimiento, ArrayList<Integer> list_image, ArrayList<Integer> list_image2) {
         super( context, R.layout.elementolista, list_name);
         this.context = context;
 
@@ -51,8 +52,9 @@ public class Adapter extends ArrayAdapter<String> {
 
 
     }
+    @NonNull
     @Override
-    public View getView(int position, View view, ViewGroup parent){
+    public View getView(int position, View view, @NonNull ViewGroup parent){
         Adapter.ViewHolder holder = new Adapter.ViewHolder();
 
         if (view==null){
@@ -60,11 +62,11 @@ public class Adapter extends ArrayAdapter<String> {
             LayoutInflater inflater = context.getLayoutInflater();
             view = inflater.inflate(R.layout.elementolista,parent,false);
 
-            holder.name_text = (TextView) view.findViewById( R.id.txt_nombre );
-            holder.pais_text = (TextView) view.findViewById( R.id.txt_pais );
-            holder.nacimiento_text = (TextView) view.findViewById( R.id.txt_nacimiento );
-            holder.personaje = (ImageView) view.findViewById( R.id.FotoPersonaje );
-            holder.bandera = (ImageView) view.findViewById( R.id.FotoBandera );
+            holder.name_text = view.findViewById( R.id.txt_nombre );
+            holder.pais_text = view.findViewById( R.id.txt_pais );
+            holder.nacimiento_text = view.findViewById( R.id.txt_nacimiento );
+            holder.personaje = view.findViewById( R.id.FotoPersonaje );
+            holder.bandera = view.findViewById( R.id.FotoBandera );
 
 
 
@@ -89,7 +91,7 @@ public class Adapter extends ArrayAdapter<String> {
             Glide.with(context).load(list_image.get(position)).into(holder.personaje);
             Glide.with(context).load(list_image2.get(position)).into(holder.bandera);
 
-        } catch (Exception e){
+        } catch (Exception ignored){
 
         }
 

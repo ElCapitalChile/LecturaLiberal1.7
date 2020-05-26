@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="88dp"
+        app:layout_constraintGuide_begin="142dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="46dp"
+        app:layout_constraintGuide_begin="69dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="153dp"
+        app:layout_constraintGuide_begin="229dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -40,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="168dp"
+        app:layout_constraintGuide_begin="245dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -49,9 +49,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="129dp"
+        app:layout_constraintGuide_begin="215dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
     <TextView
         android:id="@+id/txt_nombre"
@@ -59,41 +60,39 @@
         android:layout_height="wrap_content"
         android:text="TextView"
         android:textColor="#FFFFFF"
-        android:textSize="18sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintHorizontal_bias="0.028"
         app:layout_constraintStart_toStartOf="@+id/guideline7"
         app:layout_constraintTop_toTopOf="@+id/guideline5"
-        app:layout_constraintVertical_bias="0.23"
+        app:layout_constraintVertical_bias="0.466"
         tools:ignore="HardcodedText" />
-
 
     <TextView
         android:id="@+id/txt_pais"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
-        android:layout_marginLeft="12dp"
         android:text="TextView"
         android:textColor="#FFFFFF"
-        android:textSize="14sp"
+        android:textSize="24sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintStart_toStartOf="@+id/guideline7"
         app:layout_constraintTop_toTopOf="@+id/guideline2"
-        app:layout_constraintVertical_bias="0.379"
+        app:layout_constraintVertical_bias="0.56"
         tools:ignore="HardcodedText" />
 
     <ImageView
         android:id="@+id/FotoPersonaje"
-        android:layout_width="118dp"
-        android:layout_height="140dp"
+        android:layout_width="183dp"
+        android:layout_height="209dp"
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.464"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
@@ -109,14 +108,14 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="419dp"
-        android:layout_height="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/guideline8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline4"
         app:layout_constraintVertical_bias="0.384"
-        app:srcCompat="@drawable/barra"
+        app:srcCompat="@drawable/barratablet"
         tools:ignore="ContentDescription" />
 
     <androidx.constraintlayout.widget.Guideline
@@ -125,16 +124,16 @@
         android:layout_height="wrap_content"
         android:background="#FFFFFF"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="164dp" />
+        app:layout_constraintGuide_begin="263dp" />
 
     <TextView
         android:id="@+id/txt_nacimiento"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
-        android:layout_marginLeft="12dp"
         android:text="TextView"
         android:textColor="#FFFFFF"
+        android:textSize="24sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guideline7"
@@ -144,17 +143,17 @@
 
     <ImageView
         android:id="@+id/FotoBandera"
-        android:layout_width="33dp"
-        android:layout_height="29dp"
+        android:layout_width="63dp"
+        android:layout_height="50dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.027"
+        app:layout_constraintHorizontal_bias="0.021"
         app:layout_constraintStart_toEndOf="@+id/txt_pais"
         app:layout_constraintTop_toTopOf="@+id/guideline2"
-        app:layout_constraintVertical_bias="0.65"
-        app:srcCompat="@drawable/banderareinounido" />
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/banderareinounido"
+        android:contentDescription="@string/bandera" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

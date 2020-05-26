@@ -14,8 +14,6 @@ import android.webkit.WebViewClient;
 
 public class webviewJohnLocke extends AppCompatActivity {
 
-    private WebView webView;
-
 
     @SuppressLint("SetJavaScriptEnabled")
     @Override
@@ -24,7 +22,7 @@ public class webviewJohnLocke extends AppCompatActivity {
         setContentView( R.layout.activity_webview_john_locke );
 
 
-        webView = findViewById(R.id.webview);
+        WebView webView = findViewById(R.id.webview);
         webView.setWebViewClient(new WebViewClient());
         webView.loadUrl("https://drive.google.com/open?id=18TtZvBp6DV9msNt-k_qMaLiMrIfxE3OV");
         WebSettings webSettings = webView.getSettings();
