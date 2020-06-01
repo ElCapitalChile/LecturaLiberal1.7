@@ -97,7 +97,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/johnlocke"
+        app:srcCompat="@drawable/johnlockee"
         tools:ignore="ContentDescription" />
 
     <androidx.constraintlayout.widget.Guideline
