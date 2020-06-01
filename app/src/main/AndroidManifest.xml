@@ -8,7 +8,6 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
-
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,6 +16,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup">
+        <activity android:name=".webviewJuanBautistaAlberdi"></activity>
+        <activity android:name=".JuanBautistaAlberdi" />
         <activity android:name=".Instrucciones" />
         <activity android:name=".ElLiberalismo" />
         <activity android:name=".Contacto" />
@@ -77,23 +78,13 @@
             android:value="ca-app-pub-7249898338272849~6707687730" />
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-7249898338272849~6707687730"/>
-
-        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+            android:value="ca-app-pub-7249898338272849~6707687730" /> <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-7249898338272849~6707687730"/>
-
-        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+            android:value="ca-app-pub-7249898338272849~6707687730" /> <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-7249898338272849~6707687730"/>
-
-
-
-
-
-
+            android:value="ca-app-pub-7249898338272849~6707687730" />
 
         <activity
             android:name=".SplashScreen"

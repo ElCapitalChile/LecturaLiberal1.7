@@ -9,26 +9,26 @@
 
     <ImageView
         android:id="@+id/imageView16"
-        android:layout_width="192dp"
-        android:layout_height="257dp"
+        android:layout_width="207dp"
+        android:layout_height="269dp"
         android:layout_marginStart="107dp"
-        android:layout_marginTop="29dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="112dp"
+        android:contentDescription="@string/imgThomasPaine"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/thomaspaine"
-        android:contentDescription="@string/imgThomasPaine" />
+        app:srcCompat="@drawable/thomaspaine1" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="342dp"
         android:layout_height="133dp"
         android:layout_marginTop="20dp"
-        android:background="#eff400"
+        android:background="@drawable/rounded_corner"
         android:gravity="center_horizontal|center_vertical"
         android:text="@string/txt_descripcion_thomaspaine"
         android:textColor="#000000"
@@ -47,12 +47,13 @@
         android:layout_height="134dp"
         android:layout_marginBottom="16dp"
         android:adjustViewBounds="true"
+        android:contentDescription="@string/imgBotonThomasPaine"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/librosxd"
-        android:contentDescription="@string/imgBotonThomasPaine" />
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:srcCompat="@drawable/librosxd" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline6"

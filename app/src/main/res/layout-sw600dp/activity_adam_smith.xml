@@ -5,29 +5,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#231F20"
-    tools:context=".AdamSmith">
+    tools:context=".AlexisToc">
 
     <ImageView
         android:id="@+id/imageView16"
-        android:layout_width="290dp"
-        android:layout_height="344dp"
+        android:layout_width="330dp"
+        android:layout_height="400dp"
         android:layout_marginStart="107dp"
         android:layout_marginTop="29dp"
         android:layout_marginEnd="112dp"
-        android:contentDescription="@string/ImgAdamSmith"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/adamsmith" />
+        app:srcCompat="@drawable/adamsmith1"
+        tools:ignore="ContentDescription" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="695dp"
         android:layout_height="210dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="40dp"
         android:background="#eff400"
         android:gravity="center_horizontal|center_vertical"
         android:text="@string/txt_descripcion_adamsmith"
@@ -46,16 +46,16 @@
         android:id="@+id/botonLibros1"
         android:layout_width="700dp"
         android:layout_height="200dp"
+        android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:adjustViewBounds="true"
-        android:contentDescription="@string/BotonAdamSmith"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11"
-        app:layout_constraintVertical_bias="0.4"
-        app:srcCompat="@drawable/librosxd" />
+        app:srcCompat="@drawable/librosxd"
+        tools:ignore="ContentDescription" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline6"
@@ -69,6 +69,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="728dp" />
+        app:layout_constraintGuide_begin="731dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

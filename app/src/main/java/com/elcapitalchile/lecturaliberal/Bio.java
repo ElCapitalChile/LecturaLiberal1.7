@@ -13,12 +13,17 @@ public class Bio extends AppCompatActivity {
 
 
 
+
+
     @SuppressLint("SourceLockedOrientationActivity")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setRequestedOrientation( ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_bio);
+
+
+
 
         final ImageButton btn = findViewById(R.id.botonLibros1 );
 
@@ -30,6 +35,12 @@ public class Bio extends AppCompatActivity {
                 btn.setEnabled( false );
             }
         });
+
+
+
+
+
+
 
 
 

@@ -75,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
         list_name.add("Fréderic Bastiat");
         list_name.add("Alexis de Tocqueville");
         list_name.add("John Stuart Mill");
+        list_name.add("Juan Bautista Alberdi");
         list_name.add("Herbert Spencer");
         list_name.add("Carl Menger");
         list_name.add("John Dewey");
@@ -100,6 +101,7 @@ public class MainActivity extends AppCompatActivity {
         list_pais.add("Francia");
         list_pais.add("Francia");
         list_pais.add("Reino Unido");
+        list_pais.add("Argentina");
         list_pais.add("Reino Unido");
         list_pais.add("Polonia");
         list_pais.add("Estados Unidos");
@@ -125,6 +127,7 @@ public class MainActivity extends AppCompatActivity {
         list_nacimiento.add("1801-1850");
         list_nacimiento.add("1805-1859");
         list_nacimiento.add("1805-1873");
+        list_nacimiento.add("1810-1884");
         list_nacimiento.add("1820-1903");
         list_nacimiento.add("1840-1921");
         list_nacimiento.add("1859-1952");
@@ -151,9 +154,10 @@ public class MainActivity extends AppCompatActivity {
         list_image.add(R.drawable.fredericbastiat);
         list_image.add(R.drawable.alexisdetocqueville);
         list_image.add(R.drawable.johnstuartmill);
+        list_image.add(R.drawable.juanbautista);
         list_image.add(R.drawable.herbertspencer);
         list_image.add(R.drawable.carlmenger);
-        list_image.add(R.drawable.johndewey2);
+        list_image.add(R.drawable.johndewey);
         list_image.add(R.drawable.leonardtrelawnyhobhouse);
         list_image.add(R.drawable.benedettocroce);
         list_image.add(R.drawable.ludwigvonmises);
@@ -165,7 +169,7 @@ public class MainActivity extends AppCompatActivity {
         list_image.add(R.drawable.miltonfriedman);
         list_image.add(R.drawable.jamesmbuchanan);
         list_image.add(R.drawable.johnrawls);
-        list_image.add(R.drawable.murrayrothbard2);
+        list_image.add(R.drawable.murrayrothbard);
         list_image.add(R.drawable.ronalddworkin);
 
         list_image2.add(R.drawable.banderareinounido);
@@ -176,6 +180,7 @@ public class MainActivity extends AppCompatActivity {
         list_image2.add(R.drawable.banderafrancia);
         list_image2.add(R.drawable.banderafrancia);
         list_image2.add(R.drawable.banderareinounido);
+        list_image2.add(R.drawable.banderaargentina);
         list_image2.add(R.drawable.banderareinounido);
         list_image2.add(R.drawable.banderapolonia);
         list_image2.add(R.drawable.banderaeeuu);
@@ -268,20 +273,27 @@ public class MainActivity extends AppCompatActivity {
                         }
 
                         else if (position==8){
-                            Intent myIntent = new Intent(view.getContext(),HerbertSpencer.class);
+                            Intent myIntent = new Intent(view.getContext(),JuanBautistaAlberdi.class);
                             startActivityForResult(myIntent, 0);
                             lista.setEnabled(false);
                             overridePendingTransition( R.anim.left_in,R.anim.left_out );
                         }
 
                         else if (position==9){
-                            Intent myIntent = new Intent(view.getContext(),CarlMenger.class);
+                            Intent myIntent = new Intent(view.getContext(),HerbertSpencer.class);
                             startActivityForResult(myIntent, 0);
                             lista.setEnabled(false);
                             overridePendingTransition( R.anim.left_in,R.anim.left_out );
                         }
 
                         else if (position==10){
+                            Intent myIntent = new Intent(view.getContext(),CarlMenger.class);
+                            startActivityForResult(myIntent, 0);
+                            lista.setEnabled(false);
+                            overridePendingTransition( R.anim.left_in,R.anim.left_out );
+                        }
+
+                        else if (position==11){
                             Intent myIntent = new Intent(view.getContext(),JohnDewey.class);
                             startActivityForResult(myIntent, 0);
                             lista.setEnabled(false);
@@ -289,21 +301,21 @@ public class MainActivity extends AppCompatActivity {
                         }
 
 
-                        else if (position==11){
+                        else if (position==12){
                             Intent myIntent = new Intent(view.getContext(),LeonardTrelawny.class);
                             startActivityForResult(myIntent, 0);
                             lista.setEnabled(false);
                             overridePendingTransition( R.anim.left_in,R.anim.left_out );
                         }
 
-                        else if (position==12){
+                        else if (position==13){
                             Intent myIntent = new Intent(view.getContext(),BenedettoCroce.class);
                             startActivityForResult(myIntent, 0);
                             lista.setEnabled(false);
                             overridePendingTransition( R.anim.left_in,R.anim.left_out );
                         }
 
-                        else if (position==13){
+                        else if (position==14){
                             Intent myIntent = new Intent(view.getContext(),LudwigVonMises.class);
                             startActivityForResult(myIntent, 0);
                             lista.setEnabled(false);
@@ -311,32 +323,32 @@ public class MainActivity extends AppCompatActivity {
                         }
 
 
-                        else if (position==14){
+                        else if (position==15){
                             Intent myIntent = new Intent(view.getContext(),FriedrichHayek.class);
                             startActivityForResult(myIntent, 0);
                             lista.setEnabled(false);
                             overridePendingTransition( R.anim.left_in,R.anim.left_out );
                         }
-                        else if (position==15){
+                        else if (position==16){
                             Intent myIntent = new Intent(view.getContext(),KarlPopper.class);
                             startActivityForResult(myIntent, 0);
                             lista.setEnabled(false);
                             overridePendingTransition( R.anim.left_in,R.anim.left_out );
                         }
-                        else if (position==16){
+                        else if (position==17){
                             Intent myIntent = new Intent(view.getContext(),RaymondAron.class);
                             startActivityForResult(myIntent, 0);
                             lista.setEnabled(false);
                             overridePendingTransition( R.anim.left_in,R.anim.left_out );
                         }
-                        else if (position==17){
+                        else if (position==18){
                             Intent myIntent = new Intent(view.getContext(),IsaiahBerlin.class);
                             startActivityForResult(myIntent, 0);
                             lista.setEnabled(false);
                             overridePendingTransition( R.anim.left_in,R.anim.left_out );
                         }
 
-                        else if (position==18){
+                        else if (position==19){
                             Intent myIntent = new Intent(view.getContext(),NorbertoBobbio.class);
                             startActivityForResult(myIntent, 0);
                             lista.setEnabled(false);
@@ -344,28 +356,28 @@ public class MainActivity extends AppCompatActivity {
                         }
 
 
-                        else if (position==19){
+                        else if (position==20){
                             Intent myIntent = new Intent(view.getContext(),MiltonFriedman.class);
                             startActivityForResult(myIntent, 0);
                             lista.setEnabled(false);
                             overridePendingTransition( R.anim.left_in,R.anim.left_out );
                         }
 
-                        else if (position==20){
+                        else if (position==21){
                             Intent myIntent = new Intent(view.getContext(),JamesMBuchanan.class);
                             startActivityForResult(myIntent, 0);
                             lista.setEnabled(false);
                             overridePendingTransition( R.anim.left_in,R.anim.left_out );
                         }
 
-                        else if (position==21){
+                        else if (position==22){
                             Intent myIntent = new Intent(view.getContext(),JohnRawls.class);
                             startActivityForResult(myIntent, 0);
                             lista.setEnabled(false);
                             overridePendingTransition( R.anim.left_in,R.anim.left_out );
                         }
 
-                        else if (position==22){
+                        else if (position==23){
                             Intent myIntent = new Intent(view.getContext(),MurrayRothbard.class);
                             startActivityForResult(myIntent, 0);
                             lista.setEnabled(false);
@@ -373,7 +385,7 @@ public class MainActivity extends AppCompatActivity {
                         }
 
 
-                        else if (position==23){
+                        else if (position==24){
                             Intent myIntent = new Intent(view.getContext(),RonaldDworkin.class);
                             startActivityForResult(myIntent, 0);
                             lista.setEnabled(false);
